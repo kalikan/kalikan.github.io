@@ -2,9 +2,10 @@
 
 html{scrollbar-width:thin;}
 .timeline-Header,.timeline-Tweet-brand,footer,.timeline-Tweet-metadata,.tcu-imageContainer::before,
-.SandboxRoot.env-bp-min .timeline-Tweet-actions{display:none!important}
-.SandboxRoot.env-bp-min .timeline-Tweet-media{margin-top:5px!important}
-.timeline-Tweet-media,.timeline-Tweet-text{margin-bottom:0!important}
-.timeline-Body{border:0!important}
-.TwitterCard .SummaryCard--large .SummaryCard-image{border-bottom-width:0!important}
+.SandboxRoot.env-bp-min .timeline-Tweet-actions{display:none}
+.SandboxRoot.env-bp-min .timeline-Tweet-media{margin-top:5px}
+.timeline-Tweet-media,.timeline-Tweet-text{margin-bottom:0}
+.timeline-Body{border:0}
+.TwitterCard .SummaryCard--large .SummaryCard-image{border-bottom-width:0}
 .NaturalImage--roundedBottom .NaturalImage-image{position:relative;top:-25%}
+.NaturalImage-ctaOverlay+.NaturalImage--roundedBottom .NaturalImage-image{position:static;top:0}
