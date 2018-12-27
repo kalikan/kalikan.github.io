@@ -1,6 +1,6 @@
 <@charset "UTF-8";>
 
-html{scrollbar-width:thin}
+html{scrollbar-width:thin;min-height:360px}
 .timeline-Header,footer,.tcu-imageContainer::before,
 .timeline-Tweet-actions,
 .timeline-Tweet-brand,
