@@ -7,3 +7,4 @@ html{scrollbar-width:thin;}
 .timeline-Tweet-media,.timeline-Tweet-text{margin-bottom:0!important}
 .timeline-Body{border:0!important}
 .TwitterCard .SummaryCard--large .SummaryCard-image{border-bottom-width:0!important}
+.NaturalImage--roundedBottom .NaturalImage-image{position:relative;top:-25%}
