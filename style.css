@@ -6,8 +6,9 @@ html{scrollbar-width:thin}
 .timeline-Tweet-brand,
 .timeline-Tweet-metadata{display:none}
 .timeline-Tweet-media{margin-top:5px}
-.timeline-Tweet-media,.timeline-Tweet-text{margin-bottom:0}
-.timeline-Body{border:0}
+.timeline-Tweet-media,
+.timeline-Tweet-text{margin-bottom:0}
+.timeline-Body{border:1px solid rgba(15,70,100,.12)}
 .SummaryCard-image{border-bottom-width:0}
 .NaturalImage-image{position:relative;top:-25%}
 .NaturalImage-ctaOverlay+.NaturalImage-image{position:static;top:0}
