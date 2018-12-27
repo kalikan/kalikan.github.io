@@ -1,3 +1,7 @@
 <@charset "UTF-8";>
-html{scrollbar-width:thin!important;}
-.SandboxRoot.env-bp-min .timeline-Tweet-actions{display:none!important;}
+html{scrollbar-width:thin!important}
+timeline-Header,footer,.timeline-Tweet-metadata,.tcu-imageContainer::before,
+.SandboxRoot.env-bp-min .timeline-Tweet-actions{display:none!important}
+.timeline-Tweet-media,.timeline-Tweet-text{margin-bottom:0!important}
+.timeline-Body{border:0!important}
+.TwitterCard .SummaryCard--large .SummaryCard-image{border-bottom-width:0!important}
