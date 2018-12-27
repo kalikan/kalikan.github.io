@@ -9,6 +9,6 @@ html{scrollbar-width:thin}
 .timeline-Tweet-media,
 .timeline-Tweet-text{margin-bottom:0}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
-.SummaryCard-image{border-bottom-width:0}
+.TwitterCard .SummaryCard-image{border-bottom-width:0}
 .NaturalImage-image{position:relative;top:-25%}
 .NaturalImage-ctaOverlay+.NaturalImage-image{position:static;top:0}
