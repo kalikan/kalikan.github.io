@@ -12,5 +12,5 @@ html,body{scrollbar-width:thin}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
 .SummaryCard-image{border-bottom-width:0!important}
-.NaturalImage-image{position:relative;top:-25%}
+//.NaturalImage-image{position:relative;top:-25%}
 .NaturalImage-ctaOverlay+.NaturalImage-image{position:static;top:0}
