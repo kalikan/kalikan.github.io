@@ -13,3 +13,6 @@ html,body{scrollbar-width:thin}
 .SummaryCard-image{border-bottom-width:0!important}
 /*.NaturalImage-image{position:relative;top:-25%}
 .NaturalImage-ctaOverlay+.NaturalImage-image{position:static;top:0} */
+.TweetInfo,.CallToAction{display:none!important}
+.EmbeddedTweet--cta.EmbeddedTweet--mediaForward .EmbeddedTweet-tweet{
+  border-bottom:1px solid #e1e8ed!important;border-radius:0 0 4px 4px!important}
