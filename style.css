@@ -13,3 +13,6 @@ html,body{scrollbar-width:thin}
 .SummaryCard-image{border-bottom-width:0!important}
 /*.NaturalImage-image{position:relative;top:-25%}
 .NaturalImage-ctaOverlay+.NaturalImage-image{position:static;top:0} */
+
+.photoset_row{width:100%!important;}
+.photoset_row img{border-radius:3px;width:100%!important;}
