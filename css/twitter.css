@@ -1,15 +1,12 @@
 <@charset "UTF-8";>
-html,body{font-size:14px!important;scrollbar-width:thin}
+html,body{scrollbar-width:thin}
 .timeline-Viewport{min-height:390px}
 .timeline-Header,footer,.tcu-imageContainer::before,
-.timeline-Tweet-actions,
-.timeline-Tweet-brand,
-.timeline-Tweet-metadata{display:none}
+.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-Tweet-metadata{display:none}
 .timeline-Tweet-media{margin-top:5px}
-.timeline-Tweet-media,
-.timeline-Tweet-text{margin-bottom:0}
+.timeline-Tweet-media,.timeline-Tweet-text{font-size:13px!important;margin-bottom:0}
 .timeline-tweet{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
+.MediaCard{border-radius:2px}
 .SummaryCard-image{border-bottom-width:0!important}
-.timeline-Tweet-text{font-size:13px!important}
