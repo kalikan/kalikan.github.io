@@ -1,6 +1,5 @@
 <@charset "UTF-8";>
 html,body{scrollbar-width:thin}
-.timeline-Widget{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
 .timeline-Viewport{min-height:390px}
 .timeline-Header,footer,.tcu-imageContainer::before,
 .timeline-Tweet-actions,
@@ -8,7 +7,8 @@ html,body{scrollbar-width:thin}
 .timeline-Tweet-metadata{display:none}
 .timeline-Tweet-media{margin-top:5px}
 .timeline-Tweet-media,
-.timeline-Tweet-text{margin-bottom:0}
+.timeline-Tweet-text{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;margin-bottom:0}
+.timeline-tweet{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
 .SummaryCard-image{border-bottom-width:0!important}
