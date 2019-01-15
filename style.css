@@ -8,5 +8,5 @@ html,body{scrollbar-width:thin}
 .timeline-tweet{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
-.MediaCard{border-radius:2px!important}
+.MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
