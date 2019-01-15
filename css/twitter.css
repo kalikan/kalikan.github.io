@@ -8,7 +8,7 @@ html,body{scrollbar-width:thin}
 .timeline-Tweet-media{margin-top:5px}
 .timeline-Tweet-media,
 .timeline-Tweet-text{margin-bottom:0}
-.timeline-tweet,body{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
+.timeline-tweet{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
 .SummaryCard-image{border-bottom-width:0!important}
