@@ -1,6 +1,6 @@
 <@charset "UTF-8";>
 html,body{scrollbar-width:thin}
-.sandbox-root{font:normal normal 14px/1.4 'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
+.SandboxRoot{font-family:'M PLUS 1p',Helvetica,Roboto,"Segoe UI",Calibri,sans-serif}
 .timeline-Viewport{min-height:390px}
 .timeline-Header,footer,.tcu-imageContainer::before,
 .timeline-Tweet-actions,
