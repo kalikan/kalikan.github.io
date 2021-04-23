@@ -1,6 +1,5 @@
 <@charset "UTF-8";>
 body{width:100%;max-width:320px;margin:0 auto;}
-.timeline-Viewport{min-height:390px}
 .timeline-Tweet{padding:12px 10px}
 .timeline-TweetList-tweet:nth-of-type(n+2),
 .timeline-Header,footer,.tcu-imageContainer:before,.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore{display:none!important}
@@ -12,3 +11,4 @@ body{width:100%;max-width:320px;margin:0 auto;}
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
 
+/*.timeline-Viewport{min-height:390px}*/
