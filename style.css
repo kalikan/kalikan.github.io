@@ -1,5 +1,5 @@
 <@charset "UTF-8";>
-body{width:100%;max-width:320px}
+body{width:100%;max-width:320px;margin:0 auto;}
 .timeline-Viewport{min-height:390px}
 .timeline-Tweet{padding:12px 10px}
 .timeline-TweetList-tweet:nth-of-type(n+2),
