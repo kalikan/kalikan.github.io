@@ -2,7 +2,7 @@
 html,body{scrollbar-width:thin;width:100%}
 .timeline-Viewport{min-height:390px}
 .timeline-Tweet{padding:12px 10px}
-.timeline-TweetList-tweet:nth-of-type(n+4),
+.timeline-TweetList-tweet:nth-of-type(n+2),
 .timeline-Header,footer,.tcu-imageContainer:before,.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore{display:none!important}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.6!important;margin-bottom:-1rem}
 .timeline-Tweet-media{margin-bottom:10px}
