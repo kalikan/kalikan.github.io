@@ -1,7 +1,7 @@
 <@charset "UTF-8";>
 html,body{scrollbar-width:thin;width:100%}
 .timeline-Viewport{min-height:390px}
-.timeline-TweetList li:nth-child(n+5),
+.timeline-TweetList .timeline-TweetList-tweet:nth-of-type(n+3),
 .timeline-Header,footer,.tcu-imageContainer:before,.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore{display:none!important}
 .timeline-Tweet-text{font-size:13px!important;margin-bottom:-1rem}
 .timeline-tweet{font-family:-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,Helvetica,Arial,sans-serif;line-height:1.5!important}
