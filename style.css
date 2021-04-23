@@ -1,5 +1,5 @@
 <@charset "UTF-8";>
-.timeline-Widget{width:100%!important;max-width:320px!important;margin:0 auto!important}
+.timeline-Body{width:100%!important;max-width:320px!important;margin:0 auto!important}
 .timeline-Tweet{padding:12px 10px}
 .timeline-TweetList-tweet:nth-of-type(n+2),
 .timeline-Header,footer,.tcu-imageContainer:before,.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore{display:none!important}
