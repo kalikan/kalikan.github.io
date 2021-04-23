@@ -1,5 +1,5 @@
 <@charset "UTF-8";>
-html,body{scrollbar-width:thin;line-height:1.5}
+html,body{scrollbar-width:thin;line-height:1.5:width:100%}
 .timeline-Viewport{min-height:390px}
 .timeline-Header,footer,.tcu-imageContainer::before,
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-Tweet-metadata,.timeline-LoadMore{display:none}
