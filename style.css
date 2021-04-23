@@ -1,6 +1,4 @@
 <@charset "UTF-8";>
-.timeline-TweetList-tweet:nth-of-type(n+2),
-.timeline-Header,footer,.tcu-imageContainer::before,.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore{display:none!important}
 .timeline-Tweet-media{margin-bottom:10px}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-1rem}
 .timeline-Tweet-media,.timeline-Tweet-text{margin-left:0!important}
@@ -9,5 +7,5 @@
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
-
-/*.timeline-Viewport{min-height:390px}*/
+.timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer::before,
+.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
