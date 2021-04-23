@@ -4,7 +4,8 @@ html,body{scrollbar-width:thin;width:100%}
 .timeline-Tweet{padding:12px 10px}
 .timeline-TweetList-tweet:nth-of-type(n+4),
 .timeline-Header,footer,.tcu-imageContainer:before,.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore{display:none!important}
-.timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-1rem}
+.timeline-Tweet-text{font-size:13px!important;line-height:1.6!important;margin-bottom:-1rem}
+.timeline-Tweet-media{margin-bottom:10px}
 .timeline-tweet{font-family:-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,Helvetica,Arial,sans-serif}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
