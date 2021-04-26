@@ -9,6 +9,6 @@
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
-.timeline-Tweet{padding:7px 10px 11px}
+.timeline-Tweet--isRetweet{padding-top:7px!important}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px;width:100%!important;max-width:290px!important;margin:0 auto!important}
 .link.customisable:before{content:"\A";white-space:pre}
