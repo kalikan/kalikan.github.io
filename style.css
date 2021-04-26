@@ -7,5 +7,6 @@
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
-.timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer::before,
+.timeline-Tweet-retweetCreditIcon{top:-1px}
+.timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer::before,.hashtag,
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
