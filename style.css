@@ -2,7 +2,7 @@
 .timeline-tweet{font-family:-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,Helvetica,Arial,sans-serif}
 .timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
 .timeline-Tweet-media{margin-bottom:0}
-.timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-1em}
+.timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-12px}
 .timeline-Tweet-retweetCredit{align-items:center;display:flex;font-size:0;line-height:1;margin-bottom:4px}
 .timeline-Tweet-retweetCredit:after{content:"\0020Retweet";font-size:12px;white-space:pre}
 .timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
@@ -11,3 +11,4 @@
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px;width:100%!important;max-width:290px!important;margin:0 auto!important}
+.link.customisable:before{content:"\0020";white-space:pre}
