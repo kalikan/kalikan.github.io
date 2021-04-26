@@ -7,6 +7,7 @@
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
 .timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
+.timeline-Tweet-retweetCredit{font-size:0}
 .timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
 .timeline-Tweet-retweetCreditIcon:after{content:"リツイートしました"}
 .timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer::before,.hashtag,
