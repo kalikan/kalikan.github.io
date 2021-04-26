@@ -5,7 +5,7 @@
 .timeline-Tweet-retweetCredit{align-items:center;display:flex;font-size:0;line-height:1}
 .timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
 .timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
-.timeline-Tweet-retweetCredit:after{content:'&nbsp;Retweet';font-size:12px}
+.timeline-Tweet-retweetCredit:after{content:"&nbsp;Retweet";font-size:12px}
 .timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer:before,.hashtag,.timeline-Tweet-metadata,
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
 .MediaCard-media{border-radius:2px!important}
