@@ -1,6 +1,5 @@
 <@charset "UTF-8";>
-.timeline-Tweet{padding-bottom:11px}
-.timeline-Tweet{font-family:-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,Helvetica,Arial,sans-serif}
+.timeline-Tweet{padding:9px 10px 11px}
 .timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
 .timeline-Tweet-media{margin-bottom:0}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-12px}
