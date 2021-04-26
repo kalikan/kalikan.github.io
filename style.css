@@ -1,12 +1,12 @@
 <@charset "UTF-8";>
 .timeline-Tweet-media{margin-bottom:10px}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-1rem}
-.timeline-Tweet-media,.timeline-Tweet-text{margin-left:0!important}
 .timeline-tweet{font-family:-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,Helvetica,Arial,sans-serif}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px;width:100%!important;max-width:280px!important;margin:0 auto!important}
 .timeline-ShowMoreButton{margin-top:10px!important;width:150px!important}
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
-.timeline-Tweet-retweetCreditIcon{top:-1px}
+.timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
+.timeline-Tweet-retweetCreditIcon{margin-right:0;top:-1px}
 .timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer::before,.hashtag,
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
