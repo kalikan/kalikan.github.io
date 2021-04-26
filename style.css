@@ -3,7 +3,7 @@
 .timeline-Tweet-media{margin-bottom:0}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-12px}
 .timeline-Tweet-retweetCredit{align-items:center;display:flex;font-size:0;line-height:1;margin-bottom:4px}
-.timeline-Tweet-retweetCredit:after{content:" Retweet";font-size:12px;white-space:pre}
+.timeline-Tweet-retweetCredit:after{content:" Retweeted";font-size:12px;white-space:pre}
 .timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
 .timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer:before,.hashtag,.timeline-Tweet-metadata,
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
