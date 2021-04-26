@@ -1,5 +1,4 @@
 <@charset "UTF-8";>
-.timeline-Tweet{padding:8px 10px 11px}
 .timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
 .timeline-Tweet-media{margin-bottom:0}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-12px}
@@ -10,5 +9,6 @@
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
 .MediaCard-media{border-radius:2px!important}
 .SummaryCard-image{border-bottom-width:0!important}
+.timeline-Tweet{padding:7px 10px 11px}
 .timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px;width:100%!important;max-width:290px!important;margin:0 auto!important}
 .link.customisable:before{content:"\A";white-space:pre}
