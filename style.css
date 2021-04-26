@@ -1,11 +1,11 @@
 <@charset "UTF-8";>
 .timeline-tweet{font-family:-apple-system,BlinkMacSystemFont,Hiragino Sans,Hiragino Kaku Gothic ProN,Meiryo,Helvetica,Arial,sans-serif}
+.timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
 .timeline-Tweet-media{margin-bottom:0}
 .timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-1em}
-.timeline-Tweet-retweetCredit{align-items:center;display:flex;font-size:0;line-height:1}
-.timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
-.timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
+.timeline-Tweet-retweetCredit{align-items:center;display:flex;font-size:0;line-height:1;margin-bottom:4px}
 .timeline-Tweet-retweetCredit:after{content:"\0020Retweet";font-size:12px;white-space:pre}
+.timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
 .timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer:before,.hashtag,.timeline-Tweet-metadata,
 .timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
 .MediaCard-media{border-radius:2px!important}
