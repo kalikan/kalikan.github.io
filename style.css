@@ -1,15 +1,156 @@
-@charset "UTF-8";
-.timeline-Tweet-media,.timeline-Tweet-text,.timeline-Tweet-retweetCredit{margin-left:0!important}
-.timeline-Tweet-media{margin-bottom:0}
-.timeline-Tweet-text{font-size:13px!important;line-height:1.5!important;margin-bottom:-12px}
-.timeline-Tweet-retweetCredit{align-items:center;display:flex;font-size:0;line-height:1;margin-bottom:4px}
-.timeline-Tweet-retweetCredit:after{content:" Retweeted";font-size:12px;white-space:pre}
-.timeline-Tweet-retweetCreditIcon{margin-right:0;top:0}
-.timeline-TweetList-tweet:nth-of-type(n+2),.timeline-Header,footer,.tcu-imageContainer:before,.hashtag,.timeline-Tweet-metadata,
-.timeline-Tweet-actions,.timeline-Tweet-brand,.timeline-LoadMore,.timeline-Tweet-author{display:none!important}
-.MediaCard-media{border-radius:2px!important}
-.SummaryCard-image{border-bottom-width:0!important}
-.timeline-Tweet{overflow:hidden;padding:8px 10px 10px}
-.timeline-Tweet--isRetweet{padding-top:7px!important}
-.timeline-Body{border:1px solid rgba(15,70,100,.12);border-radius:3px;width:100%!important;max-width:280px!important;margin:0 auto!important}
-.link.customisable:before{content:"\A";white-space:pre}
+.deck{
+  font-size:90%;
+  font-weight:bold;
+  margin-bottom:1.4em;
+  text-align:center
+}
+.deck img{margin-bottom:3px}
+.deck b{font-weight:normal;}
+
+.deckCard td{font-size:103%;text-align:center}
+.deckCard td + td{font-size:100%;padding:1.25em .25em;text-align:left}
+
+.deckFt{margin-bottom:3.5em}
+.deckFt img{margin:-3px 5px 0;width:28px}
+.deckFt table{margin:-0.8em 0 0;}
+.deckFt b a{text-decoration:none}
+.deckFt img + span{position:relative;top:-1px}
+
+.ard{font-size:90%}
+.ard img{margin-bottom:3px;width:90px}
+
+.point, .points{
+  background-color:#fdfdfd;
+  border:1px solid #ddd;
+  line-height:1.25;
+  padding:1.25rem .75rem 1.2rem 5px;
+}
+.point ul, .point ol,.points ul, .points ol{margin:0}
+.point > p:not([class]),
+.points > p:not([class]){display:none}
+.point li, .points li{margin-left:-5px}
+.point li + li, .points li + li{margin-top:1em}
+.point{margin-top:-.75rem }
+
+.heroList table{font-size:.9rem}
+.heroList img{width:30px;margin-right:6px}
+.heroList span,.heroList b,
+.heroList .red,.heroList .ss{position:relative;top:-8px}
+span.red{color:#d32f2f;font-size:.9rem;font-weight:bold}
+.heroList h3 a{text-decoration:none}
+.heroList td a{align-items:center;display:flex}
+
+.songList p{margin-bottom:1.2rem}
+.songList a img{width:30px}
+.songList h3{font-size:1.25rem!important}
+.songList h3 + img{float:left;margin:-1px 6px 0 0;width:30px}
+.songList h3 + img + img{margin:-3px 0 0 6px;width:30px}
+.songList h3 span span{font-size:0.8rem !important}
+.songList td div{margin-top:0.4rem}
+.songList .c td{padding-bottom:0.52rem}
+.songList ul.c a:before{
+  background-repeat:no-repeat;background-size:32px;
+  border-radius:2px;box-shadow:0 0 1px #AAA;content:'';
+  display:block;margin:0 auto -1px;height:32px;width:32px}
+
+.embed-card,
+.embed-webcard,
+.twitter-tweet{
+  margin:0 auto !important;
+  max-width:360px !important;
+  width:90% !important
+}
+.youtube,.niconico{
+  box-shadow:0 0 1px #AAA;
+  display:inline-block;
+  position:relative;
+  overflow:hidden;
+  width:256px;
+  height:144px
+  }
+.youtube:before{
+  content:url(https://cdn-ak.f.st-hatena.com/images/fotolife/k/kalikan/20180421/20180421193929.png);
+  font-size:60px
+}
+.niconico:before{
+  content:url(https://cdn-ak.f.st-hatena.com/images/fotolife/k/kalikan/20181120/20181120150058.png);
+  font-size:92px
+}
+.youtube:before,
+.niconico:before{
+  background:rgba(0, 0, 0, .4);
+  border-radius:2px;
+  line-height:144px;
+  position:absolute;
+  top:0;
+  left:0;
+  transition:all .15s;
+  width:100%;
+  height:100%;
+  z-index:10
+}
+.youtube:hover::before{
+  background:rgba(0, 0, 0, .2);
+  cursor:pointer;
+  transition:all .15s
+}
+.youtube img,
+.niconico img{
+  max-width:100% !important;
+  width:256px !important;
+  height:144px
+}
+.c .youtube,.c .niconico,{margin:0 auto}
+.c p + .youtube,
+.c p + .niconico,
+.c p + iframe{margin-top:2rem}
+.youtube.c,iframe[src]:not([class]){border-radius:2px;display:block;margin:0 auto 3px}
+.youtube.c,.youtube.c + p,
+iframe[src]:not([class]) + p{font-size:.9rem;text-align:center;}
+.entry-content .youtube.c + p:not([class]),
+.entry-content iframe[src]:not([class]) + p:not([class]){ margin-top:2px}
+.img{border-radius:3px 3px 0 0;margin-bottom:-9px;width:256px}
+.entry-content .img img{border-radius:3px 3px 0 0;box-shadow:none;max-width:100%}
+.mov{border-radius:3px 3px 0 0;display:block;overflow:hidden;height:380px}
+.mov,.mov video{cursor:pointer;margin:0 auto;width:256px}
+.img,.mov,.tweet{border:1px solid rgba(15, 70, 100, .12);display:block;margin:0 auto 5px;text-align:left;max-width:90%}
+.tweet{border-radius:3px;color:#222;line-height:18px;padding:10px;text-decoration:none!important;width:236px}
+.tweet:hover{background-color:rgba(160, 200, 220, .12);opacity:1}
+.tweet ul{position:relative;margin:0}
+.tweet li{float:left;list-style:none;margin-bottom:8px}
+.tweet li b,.tweet li span,.tweet .txt,
+.tweet .day{clear:both;color:#222;font-size:13px}
+.tweet li.name span{display:block;margin-top:-2px}
+.tweet li span,.tweet .day{color:#8899A6}
+.tweet li.icon{position:absolute;left:0;top:1px}
+.tweet li.logo{float:right}
+.tweet li.logo img{box-shadow:none;
+width:18px;height:18px;max-width:100%}
+.tweet li.icon img{border-radius:50%;margin-right:8px;width:34px;height:34px}
+.tweet .txt a,.tweet .txt span,.tweet i{color:#2b7bb9;text-decoration:none}
+.tweet .day{margin:5px 0 -3px;text-align:right}
+.img + .tweet,.mov + .tweet{
+border-top:0;border-radius:0 0 3px 3px;margin-top:-5px}
+.img{font-size:0}
+
+.embed{background-color:#fdfefe;border:1px solid #dee;border-radius:2px;
+  display:block;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;font-size:11px;
+  line-height:1;text-decoration:none!important;
+  width:82%!important;max-width:320px!important;
+  margin:5px auto!important;padding:12px 6px}
+.embed em{display:flex;font-style:normal;line-height:1.5}
+.embed em>span{padding:0 6px}
+.embed b{font-size:15px;line-height:1.4;-webkit-line-clamp:2}
+.embed b,.embed b+span{display:-webkit-box;-webkit-box-orient:vertical;
+  overflow:hidden;text-overflow:ellipsis;max-height:3rem}
+.embed:hover b{text-decoration:underline!important}
+.embed b+span{-webkit-line-clamp:3;padding:5px 0 0}
+.embed foot{color:#6b7377;display:flex;padding:12px 6px 0}
+.embed img{box-shadow:none!important}
+.embed em img{width:80px;height:80px;margin:0 6px}
+.embed em span+img,.embed em span+br+img{width:70px;height:70px}
+.embed foot img{vertical-align:top;width:14px;margin-right:3.5px}
+
+.realtimeuserscounter__attr{display:none!important}
+.realtimeuserscounter__num:after{content:"名様ご来店中(˘ω˘"}
+.realtimeuserscounter{text-align:center}
