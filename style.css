@@ -24,19 +24,6 @@ span.red{color:#d32f2f;font-size:.9rem;font-weight:bold}
 .heroList h3 a{text-decoration:none}
 .heroList td a{align-items:center;display:flex}
 
-.songList p{margin-bottom:1.2rem}
-.songList a img{width:30px}
-.songList h3{font-size:1.25rem!important}
-.songList h3 + img{float:left;margin:-1px 6px 0 0;width:30px}
-.songList h3 + img + img{margin:-3px 0 0 6px;width:30px}
-.songList h3 span span{font-size:0.8rem !important}
-.songList td div{margin-top:0.4rem}
-.songList .c td{padding-bottom:0.52rem}
-.songList ul.c a:before{
-  background-repeat:no-repeat;background-size:32px;
-  border-radius:2px;box-shadow:0 0 1px #AAA;content:'';
-  display:block;margin:0 auto -1px;height:32px;width:32px}
-
 .embed-card,.embed-webcard,.twitter-tweet{margin:0 auto!important;max-width:360px !important;width:90%!important}
 .youtube,.niconico{box-shadow:0 0 1px #AAA;display:inline-block;position:relative;overflow:hidden;width:256px;height:144px}
 .youtube:before{content:url(https://cdn-ak.f.st-hatena.com/images/fotolife/k/kalikan/20180421/20180421193929.png);font-size:60px}
