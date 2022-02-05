@@ -72,7 +72,3 @@ span.red{color:#d32f2f;font-size:.9rem;font-weight:bold}
 .embed em img{width:80px;height:80px;margin:0 6px}
 .embed em span+img,.embed em span+br+img{width:70px;height:70px}
 .embed foot img{vertical-align:top;width:14px;margin-right:3.5px}
-
-.realtimeuserscounter__attr{display:none!important}
-.realtimeuserscounter__num:after{content:"名様ご来店中(˘ω˘"}
-.realtimeuserscounter{text-align:center}
