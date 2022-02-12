@@ -8,14 +8,6 @@
 
 .ard{font-size:90%}.ard img{margin-bottom:3px;width:90px}
 
-.point, .points{background-color:#fdfdfd;border:1px solid #ddd;line-height:1.25;padding:1.25rem .75rem 1.2rem 5px}
-.point ul, .point ol,.points ul, .points ol{margin:0}
-.point > p:not([class]),
-.points > p:not([class]){display:none}
-.point li, .points li{margin-left:-5px}
-.point li + li, .points li + li{margin-top:1em}
-.point{margin-top:-.75rem }
-
 .heroList table{font-size:.9rem}
 .heroList img{width:30px;margin-right:6px}
 .heroList span,.heroList b,
