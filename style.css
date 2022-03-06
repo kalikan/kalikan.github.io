@@ -10,3 +10,5 @@
 .youtube.c,iframe[src]:not([class]){border-radius:2px;display:block;margin:0 auto 3px}
 .youtube.c,.youtube.c + p,iframe[src]:not([class]) + p{font-size:.9rem;text-align:center;}
 .entry-content .youtube.c + p:not([class]),.entry-content iframe[src]:not([class]) + p:not([class]){margin-top:2px}
+
+.f1pw04al,.f1ca5zm7{display:none}
